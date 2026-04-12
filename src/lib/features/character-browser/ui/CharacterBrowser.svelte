@@ -9,10 +9,8 @@
 
 <section class="hero">
 	<div class="eyebrow">SvelteKit · Rick and Morty</div>
-	<h1>Arquitectura frontend lista para crecer sin mezclar UI con negocio.</h1>
-	<p>
-		Base feature-first/domain-first con contratos claros entre pantalla, dominio y API.
-	</p>
+	<h1>Rick & Morty API INGENIERIA DE SISTEMAS.</h1>
+	<p>Manejo y Despliegue de Pagina de Rick y Morty</p>
 </section>
 
 <div class="panel">
