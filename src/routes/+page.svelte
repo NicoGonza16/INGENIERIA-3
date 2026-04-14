@@ -13,8 +13,13 @@
 			params.set('q', trimmed);
 		}
 
-		const target = params.toString() ? `/?${params.toString()}` : '/';
-		goto(target, { replaceState: true, noScroll: true });
+		const target = params.toString() ? `?${params.toString()}` : '';
+
+		goto(target, {
+			replaceState: true,
+			noScroll: true,
+			keepFocus: true
+		});
 	}
 </script>
 
