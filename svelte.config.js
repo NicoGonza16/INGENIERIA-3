@@ -9,6 +9,9 @@ const config = {
 		}),
 		paths: {
 			base: '/INGENIERIA-3'
+		},
+		prerender: {
+			handleHttpError: 'ignore'
 		}
 	}
 };
